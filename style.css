@@ -1,0 +1,315 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+
+.banner{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: honeydew;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.bannerText{
+    padding-top: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.offer{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+.offerTitle>h1{
+    color: rgba(255, 0, 0, 1);
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.offerTitle>p{
+    color: rgba(255, 0, 0, 1);
+    font-size: 15px;
+    font-weight: 10;
+    margin: 5px;
+}
+
+.offerTitle>h2{
+    color: rgba(7, 2, 17, 1);
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.offer>image{
+    width: 100%;
+    height: 500px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url(images/Vectorrr.png) ;
+    background-repeat: no-repeat;
+   
+}
+
+.welcomeText{
+    width: 600px;
+    color: white;
+    
+    
+}
+
+.welcomeText>h2{
+    font-size: 70px;
+    margin: 0;
+    padding-right: 47px;
+}
+
+.welcomeImage{
+    width: 320px;
+    height: 460px;
+    padding-left: 47px;
+}
+
+.welcomeImage>image{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.location{
+    width: 1320px;
+    height: 420px;
+    background-image: linear-gradient(rgb(230, 149, 149), rgba(255, 0, 0, 0));
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.locationData{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+  
+}
+
+p{
+margin: 5px;
+}
+
+button{
+    margin: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(255, 0, 0, 1); 
+    border-radius: 5px; 
+    border: 0;
+}
+
+.offer{
+    margin-top: 120px;
+    width: 1320px;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 140px;
+}
+
+.newOffer{
+    width: 393px;
+    height: 255px;
+
+}
+
+.celebrationImage{
+    width: 460px;
+    height: 460px;
+    border: red, 10px;
+    border-radius: 360PX;
+
+}
+
+.newYearText{
+    width: 275px;
+    height: 170px;
+}
+
+.newYearImg{
+    width: 140px;
+    height: 140px;
+}
+
+.sale{
+    width: 1320px;
+    height: 980px;
+    margin-top: 120px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.saleText{
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.saleImage{
+    position: relative;
+}
+.amazed{
+    display: flex;
+}
+.varticalImages{
+    display: flex;
+}
+
+.amazed>img{
+    width: 430px;
+    height: 430px;
+    position: relative;
+    left: 890px;
+    top: 64px;
+    z-index: -1;
+
+}
+
+
+.varticalLineImage{
+    width: 1320px;
+    height: 230px;
+    position: relative;
+    top: 64px;
+    z-index: -1;
+}
+
+.varticalImages>img{
+    width: 670px;
+    height: 570px;
+    position: absolute;
+    top:120px;
+    left: 140px;
+
+}
+
+
+.varticalImages :nth-child(2){
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 770px;
+    top: 250px;
+}
+
+
+
+
+.products{
+   
+    width: 1320px;
+    height: 1160px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.productText{
+    width: 860px;
+}
+
+.productImage{
+    margin-top: 50px;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.secondRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLater{
+    position: relative;
+    width: 1320px;
+    height: 620px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(255, 0, 0, 0.05) ;
+    border-radius: 7px;
+    margin-bottom: 120px;
+}
+
+
+
+.contactInfo{
+    position: relative;
+    padding-left: 120px;
+    padding-right: 170px;
+    padding-top: 90px;
+    top: 800px;
+    width: 1600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+
+
+hr{
+    border: 1px, solid, rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
